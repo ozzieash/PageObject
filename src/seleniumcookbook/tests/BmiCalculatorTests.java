@@ -15,7 +15,7 @@ public class BmiCalculatorTests {
 		//Open & Navigate to Chrome
 		
 		//WebDriver driver = new ChromeDriver();
-		
+		//Tests in Progress
 		WebDriver driver = new ChromeDriver ();
 		
 		driver.get("http://cookbook.seleniumacademy.com/bmicalculator.html");
