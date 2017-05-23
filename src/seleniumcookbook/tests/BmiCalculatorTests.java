@@ -16,6 +16,9 @@ public class BmiCalculatorTests {
 		
 		//WebDriver driver = new ChromeDriver();
 		//Tests in Progress
+		
+		
+		
 		WebDriver driver = new ChromeDriver ();
 		
 		driver.get("http://cookbook.seleniumacademy.com/bmicalculator.html");
@@ -31,6 +34,8 @@ public class BmiCalculatorTests {
 		assertEquals("Normal", bmiCalcPage.bmi_category.getAttribute("value"));
 	
 		driver.close();
+	
+		driver.quit();
 	
 	}
 
